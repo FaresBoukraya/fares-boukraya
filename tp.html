@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login & Signup</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="login-form">
+                <h2>Login</h2>
+                <input type="email" placeholder="Email" id="e" required>
+                <input type="password" placeholder="Password" id="p" required>
+                <button type="submit" onclick="func()">Login</button>
+                <p>Don't have an account? <span id="toggle-form">Signup</span></p>
+            </form>
+            <form id="signup-form" style="display: none;">
+                <h2>Signup</h2>
+                <input type="text" placeholder="Username" id="u" required>
+                <input type="email" placeholder="Email" id="el" required>
+                <input type="password" placeholder="Password" id="pl" required>
+                <button type="submit" onclick="fan()">Signup</button>
+                <p>Already have an account? <span id="toggle-form-login">Login</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <a href="projet.html"></a>
+</body>
+</html>

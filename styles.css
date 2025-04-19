@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 5%;
+    background-image: url("premium_photo-1681487916420-8f50a06eb60e.avif");
+    background-size: cover;
+}
+
+.container {
+    /*make the background transparent */
+    background: rgba(255, 255, 255, 0.2);
+    /*... other styles as befor */
+    /*other styling as needed */
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 300px;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+    
+}
+
+p {
+    text-align: center;
+}
+
+#toggle-form, #toggle-form-login {
+    color: #154360;
+    cursor: pointer;
+}
